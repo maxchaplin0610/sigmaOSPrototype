@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13D6695E299045DB009056E8 /* sigmaOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D6695D299045DB009056E8 /* sigmaOSApp.swift */; };
+		13D66960299045DB009056E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D6695F299045DB009056E8 /* ContentView.swift */; };
+		13D66962299045DD009056E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D66961299045DD009056E8 /* Assets.xcassets */; };
+		13D66965299045DD009056E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D66964299045DD009056E8 /* Preview Assets.xcassets */; };
+		13D6696F299045DD009056E8 /* sigmaOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D6696E299045DD009056E8 /* sigmaOSTests.swift */; };
+		13D66979299045DD009056E8 /* sigmaOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66978299045DD009056E8 /* sigmaOSUITests.swift */; };
+		13D6697B299045DD009056E8 /* sigmaOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D6697A299045DD009056E8 /* sigmaOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13D6696B299045DD009056E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13D66952299045DB009056E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13D66959299045DB009056E8;
+			remoteInfo = sigmaOS;
+		};
+		13D66975299045DD009056E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13D66952299045DB009056E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13D66959299045DB009056E8;
+			remoteInfo = sigmaOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13D6695A299045DB009056E8 /* sigmaOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sigmaOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D6695D299045DB009056E8 /* sigmaOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sigmaOSApp.swift; sourceTree = "<group>"; };
+		13D6695F299045DB009056E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13D66961299045DD009056E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13D66964299045DD009056E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13D6696A299045DD009056E8 /* sigmaOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sigmaOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D6696E299045DD009056E8 /* sigmaOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sigmaOSTests.swift; sourceTree = "<group>"; };
+		13D66974299045DD009056E8 /* sigmaOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sigmaOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D66978299045DD009056E8 /* sigmaOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sigmaOSUITests.swift; sourceTree = "<group>"; };
+		13D6697A299045DD009056E8 /* sigmaOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sigmaOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13D66957299045DB009056E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D66967299045DD009056E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D66971299045DD009056E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13D66951299045DB009056E8 = {
+			isa = PBXGroup;
+			children = (
+				13D6695C299045DB009056E8 /* sigmaOS */,
+				13D6696D299045DD009056E8 /* sigmaOSTests */,
+				13D66977299045DD009056E8 /* sigmaOSUITests */,
+				13D6695B299045DB009056E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13D6695B299045DB009056E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13D6695A299045DB009056E8 /* sigmaOS.app */,
+				13D6696A299045DD009056E8 /* sigmaOSTests.xctest */,
+				13D66974299045DD009056E8 /* sigmaOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13D6695C299045DB009056E8 /* sigmaOS */ = {
+			isa = PBXGroup;
+			children = (
+				13D6695D299045DB009056E8 /* sigmaOSApp.swift */,
+				13D6695F299045DB009056E8 /* ContentView.swift */,
+				13D66961299045DD009056E8 /* Assets.xcassets */,
+				13D66963299045DD009056E8 /* Preview Content */,
+			);
+			path = sigmaOS;
+			sourceTree = "<group>";
+		};
+		13D66963299045DD009056E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				13D66964299045DD009056E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13D6696D299045DD009056E8 /* sigmaOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				13D6696E299045DD009056E8 /* sigmaOSTests.swift */,
+			);
+			path = sigmaOSTests;
+			sourceTree = "<group>";
+		};
+		13D66977299045DD009056E8 /* sigmaOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13D66978299045DD009056E8 /* sigmaOSUITests.swift */,
+				13D6697A299045DD009056E8 /* sigmaOSUITestsLaunchTests.swift */,
+			);
+			path = sigmaOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13D66959299045DB009056E8 /* sigmaOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D6697E299045DD009056E8 /* Build configuration list for PBXNativeTarget "sigmaOS" */;
+			buildPhases = (
+				13D66956299045DB009056E8 /* Sources */,
+				13D66957299045DB009056E8 /* Frameworks */,
+				13D66958299045DB009056E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sigmaOS;
+			productName = sigmaOS;
+			productReference = 13D6695A299045DB009056E8 /* sigmaOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13D66969299045DD009056E8 /* sigmaOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D66981299045DD009056E8 /* Build configuration list for PBXNativeTarget "sigmaOSTests" */;
+			buildPhases = (
+				13D66966299045DD009056E8 /* Sources */,
+				13D66967299045DD009056E8 /* Frameworks */,
+				13D66968299045DD009056E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13D6696C299045DD009056E8 /* PBXTargetDependency */,
+			);
+			name = sigmaOSTests;
+			productName = sigmaOSTests;
+			productReference = 13D6696A299045DD009056E8 /* sigmaOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13D66973299045DD009056E8 /* sigmaOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D66984299045DD009056E8 /* Build configuration list for PBXNativeTarget "sigmaOSUITests" */;
+			buildPhases = (
+				13D66970299045DD009056E8 /* Sources */,
+				13D66971299045DD009056E8 /* Frameworks */,
+				13D66972299045DD009056E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13D66976299045DD009056E8 /* PBXTargetDependency */,
+			);
+			name = sigmaOSUITests;
+			productName = sigmaOSUITests;
+			productReference = 13D66974299045DD009056E8 /* sigmaOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13D66952299045DB009056E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					13D66959299045DB009056E8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					13D66969299045DD009056E8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 13D66959299045DB009056E8;
+					};
+					13D66973299045DD009056E8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 13D66959299045DB009056E8;
+					};
+				};
+			};
+			buildConfigurationList = 13D66955299045DB009056E8 /* Build configuration list for PBXProject "sigmaOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13D66951299045DB009056E8;
+			productRefGroup = 13D6695B299045DB009056E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13D66959299045DB009056E8 /* sigmaOS */,
+				13D66969299045DD009056E8 /* sigmaOSTests */,
+				13D66973299045DD009056E8 /* sigmaOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13D66958299045DB009056E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D66965299045DD009056E8 /* Preview Assets.xcassets in Resources */,
+				13D66962299045DD009056E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D66968299045DD009056E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D66972299045DD009056E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13D66956299045DB009056E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D66960299045DB009056E8 /* ContentView.swift in Sources */,
+				13D6695E299045DB009056E8 /* sigmaOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D66966299045DD009056E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D6696F299045DD009056E8 /* sigmaOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D66970299045DD009056E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D6697B299045DD009056E8 /* sigmaOSUITestsLaunchTests.swift in Sources */,
+				13D66979299045DD009056E8 /* sigmaOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13D6696C299045DD009056E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13D66959299045DB009056E8 /* sigmaOS */;
+			targetProxy = 13D6696B299045DD009056E8 /* PBXContainerItemProxy */;
+		};
+		13D66976299045DD009056E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13D66959299045DB009056E8 /* sigmaOS */;
+			targetProxy = 13D66975299045DD009056E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13D6697C299045DD009056E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13D6697D299045DD009056E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13D6697F299045DD009056E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sigmaOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 963G2ZQ862;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.sigmaOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13D66980299045DD009056E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sigmaOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 963G2ZQ862;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.sigmaOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13D66982299045DD009056E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 963G2ZQ862;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.sigmaOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sigmaOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sigmaOS";
+			};
+			name = Debug;
+		};
+		13D66983299045DD009056E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 963G2ZQ862;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.sigmaOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sigmaOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sigmaOS";
+			};
+			name = Release;
+		};
+		13D66985299045DD009056E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 963G2ZQ862;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.sigmaOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sigmaOS;
+			};
+			name = Debug;
+		};
+		13D66986299045DD009056E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 963G2ZQ862;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.sigmaOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sigmaOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13D66955299045DB009056E8 /* Build configuration list for PBXProject "sigmaOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D6697C299045DD009056E8 /* Debug */,
+				13D6697D299045DD009056E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D6697E299045DD009056E8 /* Build configuration list for PBXNativeTarget "sigmaOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D6697F299045DD009056E8 /* Debug */,
+				13D66980299045DD009056E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D66981299045DD009056E8 /* Build configuration list for PBXNativeTarget "sigmaOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D66982299045DD009056E8 /* Debug */,
+				13D66983299045DD009056E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D66984299045DD009056E8 /* Build configuration list for PBXNativeTarget "sigmaOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D66985299045DD009056E8 /* Debug */,
+				13D66986299045DD009056E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13D66952299045DB009056E8 /* Project object */;
+}
