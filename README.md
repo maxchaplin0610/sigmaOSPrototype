@@ -48,6 +48,11 @@ Search bar auto-completes queries based on search history
 
 ![enter image description here](https://yubi.fitness/wp-content/uploads/2023/02/suggestion.gif)
 
+
+### Search History
+
+Users search history is stored to power query suggestions as well as a allowing users to quickly go back to old urls.![enter image description here](https://yubi.fitness/wp-content/uploads/2023/02/searchHistory.png)
+
   
 
 ### Favicons
