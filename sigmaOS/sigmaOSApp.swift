@@ -11,7 +11,14 @@ import SwiftUI
 struct sigmaOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            ZStack {
+                ContentView()
+                    .environmentObject(SwiftUIWebViewModel())
+                
+                logoAnimationView()
+                
+            }
         }
     }
 }

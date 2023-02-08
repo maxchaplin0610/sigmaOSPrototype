@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1309B1DE2992F1F8003B018B /* logoAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1309B1DD2992F1F8003B018B /* logoAnimationView.swift */; };
 		13D6695E299045DB009056E8 /* sigmaOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D6695D299045DB009056E8 /* sigmaOSApp.swift */; };
 		13D66960299045DB009056E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D6695F299045DB009056E8 /* ContentView.swift */; };
 		13D66962299045DD009056E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D66961299045DD009056E8 /* Assets.xcassets */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1309B1DD2992F1F8003B018B /* logoAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoAnimationView.swift; sourceTree = "<group>"; };
+		1309B1DF2993B090003B018B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		13D6695A299045DB009056E8 /* sigmaOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sigmaOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D6695D299045DB009056E8 /* sigmaOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sigmaOSApp.swift; sourceTree = "<group>"; };
 		13D6695F299045DB009056E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,7 +97,9 @@
 		13D6695C299045DB009056E8 /* sigmaOS */ = {
 			isa = PBXGroup;
 			children = (
+				1309B1DF2993B090003B018B /* Info.plist */,
 				13D6695D299045DB009056E8 /* sigmaOSApp.swift */,
+				1309B1DD2992F1F8003B018B /* logoAnimationView.swift */,
 				13D6695F299045DB009056E8 /* ContentView.swift */,
 				13D66961299045DD009056E8 /* Assets.xcassets */,
 				13D66963299045DD009056E8 /* Preview Content */,
@@ -257,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1309B1DE2992F1F8003B018B /* logoAnimationView.swift in Sources */,
 				13D66960299045DB009056E8 /* ContentView.swift in Sources */,
 				13D6695E299045DB009056E8 /* sigmaOSApp.swift in Sources */,
 			);
@@ -415,21 +421,23 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"sigmaOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 963G2ZQ862;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sigmaOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = me.sigmaOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -444,21 +452,23 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"sigmaOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 963G2ZQ862;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sigmaOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = me.sigmaOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
