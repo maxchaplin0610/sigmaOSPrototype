@@ -25,11 +25,6 @@ Effortlessly organise your tabs into powerful workspaces and easily browse betwe
 
 ![Scroll Detection - Hides / Shows Bottom Nav Menu Based On Scroll Direction](https://github.com/maxchaplin0610/sigmaOSPrototype/blob/main/workspaces.gif)
 
-  
-
-## Features
-
-Intuitive design is imperative when creating a productivity when efficiency is key. That's why this prototype has design features that make navigation quick!
 
 ## Tabs
 Tabs cam be renamed to what they mean to you to make your browser truly yours. As well as being marked as done, locked or snoozed!
