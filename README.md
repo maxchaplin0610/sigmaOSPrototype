@@ -34,7 +34,7 @@ Intuitive design is imperative when creating a productivity when efficiency is k
   
 
 ## Search Suggestions - Powered By Google
-Google search suggestions displayed when editing search query
+Google search suggestions displayed when editing search query.
 
   
 
@@ -44,7 +44,7 @@ Google search suggestions displayed when editing search query
 
 ## Auto-Complete - Backed By Search History
 
-Search bar auto-completes queries based on search history
+Search bar auto-completes queries based on search history.
 
 ![enter image description here](https://yubi.fitness/wp-content/uploads/2023/02/suggestion.gif)
 
@@ -85,13 +85,13 @@ AsyncImage(url: URL(string: FavIcon(https://www.facebook.com/)[.l]))
 
 ```
 
-Would display the facebook logo with [.l] meaning large resolution (64 x 64)
+Would display the facebook logo with [.l] meaning large resolution (64 x 64).
 
   
 
 ## Scroll Detection
 
-Hides / Shows Bottom Nav Menu Based On Scroll Direction
+Hides / Shows Bottom Nav Menu Based On Scroll Direction.
 
   
 
@@ -101,7 +101,7 @@ Hides / Shows Bottom Nav Menu Based On Scroll Direction
 
 ## Auto Select
 
-Search bar text is auto selected when opened for quicker search
+Search bar text is auto selected when opened for quicker search.
 
 ```
 
