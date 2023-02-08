@@ -42,14 +42,14 @@ Google search suggestions displayed when editing search query
 
   
 
-### Auto-Complete - Backed By Search History
+## Auto-Complete - Backed By Search History
 
 Search bar auto-completes queries based on search history
 
 ![enter image description here](https://yubi.fitness/wp-content/uploads/2023/02/suggestion.gif)
 
 
-### Search History
+## Search History
 
 Users search history is stored to power query suggestions as well as a allowing users to quickly go back to old urls.
 
@@ -57,7 +57,7 @@ Users search history is stored to power query suggestions as well as a allowing 
 
   
 
-### Favicons
+## Favicons
 
 Using a little known google API, favicons are displayed to visually represent URLs.
 
@@ -89,7 +89,7 @@ Would display the facebook logo with [.l] meaning large resolution (64 x 64)
 
   
 
-### Scroll Detection
+## Scroll Detection
 
 Hides / Shows Bottom Nav Menu Based On Scroll Direction
 
@@ -99,7 +99,7 @@ Hides / Shows Bottom Nav Menu Based On Scroll Direction
 
   
 
-### Auto Select
+## Auto Select
 
 Search bar text is auto selected when opened for quicker search
 
