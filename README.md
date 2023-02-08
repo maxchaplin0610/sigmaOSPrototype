@@ -55,6 +55,87 @@ Users search history is stored to power query suggestions as well as a allowing 
 ![enter image description here](https://github.com/maxchaplin0610/sigmaOSPrototype/blob/main/searchHistory.png)
 
   
+## Search Natural Language or URL
+A simple combination of a URL extension followed and a short function to determine if the searchTerm is valid results in a seamless search experience.
+
+```
+extension URL {
+    
+    func isReachable(completion: @escaping (Bool) -> ()) {
+        
+        var request = URLRequest(url: self)
+        request.httpMethod = "HEAD"
+        URLSession(configuration: .default)
+          .dataTask(with: request) { (_, response, error) -> Void in
+            guard error == nil else {
+              print("fgh Error:", error ?? "")
+                completion(false)
+              return
+            }
+
+            guard (response as? HTTPURLResponse)?
+              .statusCode == 200 else {
+                print("fgh \(200)")
+                completion(false)
+                return
+            }
+              print("fgh true")
+              completion(true)
+          }
+          .resume()
+      
+    }
+}
+
+```
+```
+
+func getURLfromString(searchTerm: String, completion: @escaping (URL?) -> ()) {
+    
+    let url = URL(string: "searchTerm")
+    
+    if url != nil {
+        
+        url?.isReachable { success in
+            if success {
+                
+                // If searchTerm conforms to URL and is valid (200) then complete with no modification
+                completion(url)
+                
+                
+            } else {
+                
+                // Check if searchTerm is a domain but requires "https://" e.g >>> youtube.com is not valid however "https://youtube.com" is valid
+                let alteredURLString = "https://\(searchTerm)"
+                let alteredURL = URL(string: alteredURLString)
+                alteredURL?.isReachable(completion: { success2 in
+                    
+                    if success2 {
+                        
+                        // If alteredURL conforms to URL and is valid (200) then complete
+                        completion(url)
+                        
+                    } else {
+                        
+                        // If all else fails, modify searchTerm and search with google
+                        let newString = searchTerm.replacingOccurrences(of: " ", with: "%20", options: .literal, range: nil)
+                        let googleSearchURLString = "https://www.google.com/search?q=\(newString)"
+                        let googleSearchURL = URL(string: googleSearchURLString)
+                        
+                        completion(googleSearchURL)
+                    }
+                    
+                })
+                
+                
+            }
+        }
+    }
+    
+    
+}
+
+```
 
 ## Favicons
 
