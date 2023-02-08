@@ -5,7 +5,7 @@ Hey! Welcome to my SigmaOS for iphone prototype inspired by the SigmaOS browser 
 You can [download on TestFlight here](https://sigmaos.com/)!
   
 
-This IOS version has many of the productivity features the mac version has including :
+This Prototype has many of the productivity features the mac version has including :
 
 🗂️ **Group** tabs easily
 
