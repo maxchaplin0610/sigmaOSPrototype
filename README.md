@@ -33,7 +33,8 @@ Intuitive design is imperative when creating a productivity when efficiency is k
 
 ## Rename Tabs
 Rename tabs to what they mean to you and make your browser truly yours.
-![Scroll Detection - Hides / Shows Bottom Nav Menu Based On Scroll Direction](https://yubi.fitness/wp-content/uploads/2023/02/Simulator-Screen-Recording-iPhone-14-Pro-Max-2023-02-08-at-19.30.52_1.gif)
+
+![Scroll Detection - Hides / Shows Bottom Nav Menu Based On Scroll Direction](https://github.com/maxchaplin0610/sigmaOSPrototype/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%2014%20Pro%20Max%20-%202023-02-08%20at%2019.30.52_1.gif?raw=true)
 
   
 
