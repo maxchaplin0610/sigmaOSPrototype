@@ -27,7 +27,7 @@ Effortlessly organise your tabs into powerful workspaces and easily browse betwe
 
 
 ## Tabs
-Tabs cam be renamed to what they mean to you to make your browser truly yours. As well as being marked as done, locked or snoozed!
+Tabs can be renamed to what they mean to you to make your browser truly yours. As well as being marked as done, locked or snoozed!
 
 ![Scroll Detection - Hides / Shows Bottom Nav Menu Based On Scroll Direction](https://github.com/maxchaplin0610/sigmaOSPrototype/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%2014%20Pro%20Max%20-%202023-02-08%20at%2019.30.52_1.gif?raw=true)
 
