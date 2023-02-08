@@ -33,7 +33,7 @@ Intuitive design is imperative when creating a productivity when efficiency is k
 
   
 
-### Search Suggestions - Powered By Google
+## Search Suggestions - Powered By Google
 Google search suggestions displayed when editing search query
 
   
