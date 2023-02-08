@@ -31,12 +31,14 @@ Effortlessly organise your tabs into powerful workspaces and easily browse betwe
 
 Intuitive design is imperative when creating a productivity when efficiency is key. That's why this prototype has design features that make navigation quick!
 
+## Rename Tabs
+Rename tabs to what they mean to you and make your browser truly yours.
+![Scroll Detection - Hides / Shows Bottom Nav Menu Based On Scroll Direction]([https://yubi.fitness/wp-content/uploads/2023/02/Simulator-Screen-Recording-iPhone-14-Pro-Max-2023-02-08-at-17.36.37.gif](https://yubi.fitness/wp-content/uploads/2023/02/Simulator-Screen-Recording-iPhone-14-Pro-Max-2023-02-08-at-19.30.52_1.gif))
+
   
 
 ## Search Suggestions - Powered By Google
 Google search suggestions displayed when editing search query.
-
-  
 
 ![Scroll Detection - Hides / Shows Bottom Nav Menu Based On Scroll Direction](https://yubi.fitness/wp-content/uploads/2023/02/Simulator-Screen-Recording-iPhone-14-Pro-Max-2023-02-08-at-17.36.37.gif)
 
@@ -47,6 +49,7 @@ Google search suggestions displayed when editing search query.
 Search bar auto-completes queries based on search history.
 
 ![enter image description here](https://yubi.fitness/wp-content/uploads/2023/02/suggestion.gif)
+
 
 
 ## Search History
