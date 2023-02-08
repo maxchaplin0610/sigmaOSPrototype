@@ -41,7 +41,7 @@ Rename tabs to what they mean to you and make your browser truly yours.
 ## Search Suggestions - Powered By Google
 Google search suggestions displayed when editing search query.
 
-![Scroll Detection - Hides / Shows Bottom Nav Menu Based On Scroll Direction](https://yubi.fitness/wp-content/uploads/2023/02/Simulator-Screen-Recording-iPhone-14-Pro-Max-2023-02-08-at-17.36.37.gif)
+![Scroll Detection - Hides / Shows Bottom Nav Menu Based On Scroll Direction](https://github.com/maxchaplin0610/sigmaOSPrototype/blob/main/gogoleSearchsuggestions.gif)
 
   
 
@@ -49,7 +49,7 @@ Google search suggestions displayed when editing search query.
 
 Search bar auto-completes queries based on search history.
 
-![enter image description here](https://yubi.fitness/wp-content/uploads/2023/02/suggestion.gif)
+![enter image description here](https://github.com/maxchaplin0610/sigmaOSPrototype/blob/main/historySuggestion.gif)
 
 
 
@@ -57,7 +57,7 @@ Search bar auto-completes queries based on search history.
 
 Users search history is stored to power query suggestions as well as a allowing users to quickly go back to old urls.
 
-![enter image description here](https://yubi.fitness/wp-content/uploads/2023/02/searchHistory.png)
+![enter image description here](https://github.com/maxchaplin0610/sigmaOSPrototype/blob/main/searchHistory.png)
 
   
 
@@ -99,7 +99,7 @@ Hides / Shows Bottom Nav Menu Based On Scroll Direction.
 
   
 
-![Scroll Detection - Hides / Shows Bottom Nav Menu Based On Scroll Direction](https://yubi.fitness/wp-content/uploads/2023/02/scrollDetection2.gif)
+![Scroll Detection - Hides / Shows Bottom Nav Menu Based On Scroll Direction](https://github.com/maxchaplin0610/sigmaOSPrototype/blob/main/scrollDetection.gif)
 
   
 
@@ -121,4 +121,4 @@ textField.selectedTextRange = textField.textRange(from: textField.beginningOfDoc
 
 ```
 
-![enter image description here](https://yubi.fitness/wp-content/uploads/2023/02/autSelect.gif)
+![enter image description here](https://github.com/maxchaplin0610/sigmaOSPrototype/blob/main/autoSelect.gif)
