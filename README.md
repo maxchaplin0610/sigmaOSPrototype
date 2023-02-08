@@ -42,7 +42,7 @@ Google search suggestions displayed when editing search query.
 
 ## Auto-Complete - Backed By Search History
 
-Search bar auto-completes queries based on search history.
+Search bar auto-completes queries based on previous searches.
 
 ![enter image description here](https://github.com/maxchaplin0610/sigmaOSPrototype/blob/main/historySuggestion.gif)
 
