@@ -187,11 +187,11 @@ Search bar text is auto selected when opened for quicker search.
 
 .onReceive(NotificationCenter.default.publisher(for: UITextField.textDidBeginEditingNotification)) { obj in
 
-if let textField = obj.object **as**? UITextField {
+  if let textField = obj.object as? UITextField {
 
-textField.selectedTextRange = textField.textRange(from: textField.beginningOfDocument, to: textField.endOfDocument)
+  textField.selectedTextRange = textField.textRange(from: textField.beginningOfDocument, to: textField.endOfDocument)
 
-}
+  }
 
 }
 
