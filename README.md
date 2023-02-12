@@ -23,7 +23,7 @@ This Prototype has many of the productivity features the mac version has includi
 
 Effortlessly organise your tabs into powerful workspaces and easily browse between them to quickly find what you're looking for.
 
-![Scroll Detection - Hides / Shows Bottom Nav Menu Based On Scroll Direction](https://github.com/maxchaplin0610/sigmaOSPrototype/blob/main/workspaces.gif)
+![Scroll Detection - Hides / Shows Bottom Nav Menu Based On Scroll Direction](https://github.com/maxchaplin0610/sigmaOSPrototype/blob/main/workspaces_1.gif)
 
 
 ## Tabs
