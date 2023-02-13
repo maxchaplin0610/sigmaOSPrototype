@@ -17,6 +17,8 @@ This Prototype has many of the productivity features the mac version has includi
 
 ✅ **Mark** tabs as done
 
+& More!
+
   
 
 ## Workspaces!
