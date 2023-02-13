@@ -31,6 +31,12 @@ Tabs can be renamed to what they mean to you to make your browser truly yours. A
 
 ![Scroll Detection - Hides / Shows Bottom Nav Menu Based On Scroll Direction](https://github.com/maxchaplin0610/sigmaOSPrototype/blob/main/renameTab_1.gif)
 
+## Search With AI
+
+Easily access advanced AI answers powered by OpenAI's ChatGPT
+
+![Scroll Detection - Hides / Shows Bottom Nav Menu Based On Scroll Direction](https://github.com/maxchaplin0610/sigmaOSPrototype/blob/main/AISearch.gif)
+
   
 
 ## Search Suggestions - Powered By Google
